@@ -12,4 +12,9 @@ app.get('/about',(req,res)=>{
     res.send("<h1>WELCOME TO THE About Page of NODE JS APP</h1>")
 })
 
+app.get('/career',(req,res)=>{
+    console.log("Career Page")
+    res.send("<h1>WELCOME TO THE Career Page of NODE JS APP</h1>")
+})
+
 app.listen(3000)
